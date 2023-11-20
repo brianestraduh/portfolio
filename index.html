@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Estrada | Web Developer</title>
+    <meta name="color-scheme" content="dark light" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+<!-- favicon info-->    
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+<body>
+    <main>
+      <nav>
+        <div class="nav container">
+            <img src="assets/images/logo.svg" alt="Sam Green logo" width="45" height="43" />
+            <ul class="nav-links">
+                <li><a href="#about-me" class="btn btn--nav">About me</a></li>
+                <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
+                <li><a href="#experience" class="btn btn--nav">Experience</a></li>
+                <li><a href="#testimonials" class="btn btn--nav">Testimonials</a></li>
+                <li ><a href="#hire-me" class="btn btn--raised">Hire me</a></li>
+            </ul>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark theme">
+        	<svg
+                 xmlns="http://www.w3.org/2000/svg"
+                 enable-background="new 0 0 24 24"
+                 height="24px"
+                 viewBox="0 0 24 24"
+                 width="24px"
+                 fill="var(--light-icon)"
+                 >
+                <rect fill="none" height="24" width="24" />
+                <path
+                      d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26 c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"
+                      />
+            </svg>
+        </button>
+      </nav>
+      <section id="intro" class="layout-section" aria-describedby="intro-h1 intro-h2">
+        <div class="container">
+            <h1 id="intro-h1" class="title--lg">Brian Estrada</h1>
+            <h2 id="intro-h2" class="title--lg">Software Engineer</h2>
+            <p class="text--xl">Brian is a web developer based in Southern California.</p>
+            <p class="text--xl">Brian brings <strong>quality</strong> and a user first approach to all of his projects.</p>
+        </div>
+        <button id="scroll-down" aria-label="scroll-down">
+          <svg xmlns="http://www.w3.org/2000/svg"
+          height="48px"
+          viewBox="0 0 24 24"
+          width="48px">
+       <path d="M0 0h24v24H0V0z" fill="none" />
+       <path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z" stroke="var(--light-icon)" />
+          </svg>
+      </button>
+    </section>
+    <section id="about-me" class="layout-section" aria-labelledby="heading-aboutme">
+      <div class="container">
+          <h2 id="heading-aboutme" class="layout-section-title title--sm">About me</h2>
+          <div class="layout-grid-half">
+          <p class="text--lg">Brian Estrada studied Mechanical Engineering at the University of California, Riverside. Years of experience working with software has given Brian a consumer perspective with an emphasis on quality.</p>
+          <p class="text--lg">Brian is constantly evolving his toolkit and growing as a Software Engineer, learning the <strong>best technologies</strong>, suitable for any project.</p>
+          <p class="text--lg">
+            Curious to know more? Check-out my <a href="#portfolio">portfolio</a> or <a href="#hire-me">hire me!</a>
+          </p>
+      </div>
+    </section>
+      <footer></footer>
+    <script type="module" src="main.js"></script>
+    </main>
+</body>
+</html>

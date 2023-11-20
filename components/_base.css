@@ -1,0 +1,59 @@
+:root {
+    --primary: #f2d544;
+    --dark-blue: #130c24;
+    --black: #232020;
+    --gray: #999999;
+    --beige: #f5f5f1;
+    --gap: 80px;
+
+    /* theme dependent variables */
+    --text-color: white;
+    --light-icon: white;
+    --gray-dark: #666666;
+    --gray-light: #bdbdbd;
+    --dark-icon: var(--black);
+    --anchor-color: var(--primary);
+}
+
+.light-theme { 
+    background-color: var(--beige);
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: white;
+    --anchor-color: var(--black);
+    }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+input, textarea, button, select {
+    font: inherit;
+}
+
+/* OR: you can use use clamp(30px, 10vw, 80px) in the first :root declaration. You can then remove the media query */
+@media (max-width: 37.5rem) {
+    :root {
+        --gap: 30px;
+        font-size: 70%;
+        overflow-wrap: break-word
+    }
+}
+
+html{
+    background-color: var(--dark-blue);
+    color: var(--text-color);
+}
+
+::selection {
+    background-color: var(--primary);
+    color: var(--black);
+}
+

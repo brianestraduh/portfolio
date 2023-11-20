@@ -1,0 +1,21 @@
+.input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--grey);
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 1.9;
+    font-size: 1.4rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.5rem;
+}
+
+.input:hover{
+    border-bottom: 2px solid var(--primary);
+}
+
+textarea{
+    min-height: 100px;
+    resize: vertical;
+}

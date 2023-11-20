@@ -1,0 +1,51 @@
+    .btn {
+        all: unset;
+        outline: revert;
+        box-sizing: border-box;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: translate 180ms, opacity 180ms;
+        opacity: 0.8;
+    }
+    
+    .btn:hover {
+        opacity: 1;
+    }
+    
+    .btn:active {
+        translate: 1px 1px;
+    }
+    
+    
+    .btn--nav{
+        color: var(--text-color);
+        padding: 10px;
+    }
+    
+    .btn--raised {
+        background-color: var(--primary);
+        color: var(--black);
+        padding: 12px 53px 12px 24px;
+        background-image: url(../assets/images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+    }
+    
+    .btn--line {
+        color: var(--text-color);
+        padding: 12px;
+    }
+    
+    .btn--line::after {
+        content: "";
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid var(--primary);
+        height: 4px;
+        width: 100%;
+    }
