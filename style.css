@@ -10,6 +10,9 @@
 @import url("components/intro.css");
 @import url("components/layout.css");
 @import url("components/scroll.css");
+@import url("components/portfolio.css");
+@import url("components/tags.css");
+
 * {
   box-sizing: border-box;
 }

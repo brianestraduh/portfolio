@@ -1,0 +1,24 @@
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    margin-bottom: 3.75rem;
+
+}
+
+.portfolio:nth-child(odd) .portfolio-screenshot { 
+    order: 1;
+}
+
+.portfolio-screenshot{
+    border-radius: 50%;
+}
+
+@media (max-width: 37.5rem) {
+    .portfolio{
+    grid-template-columns: 100%;
+}
+.portfolio:nth-child(odd) .portfolio-screenshot { 
+    order: 0;
+}
+}
