@@ -1,21 +1,26 @@
 a {
-	color: var(--anchor-color);
-	opacity: 0.85;
-	transition: opacity 200ms;
+    color: var(--anchor-color);
+    opacity: 0.85;
+    transition: opacity 200ms;
 }
 
 a:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
 p {
-	color: var(--gray-light);
+    color: var(--gray-light);
 }
 
-strong{
+strong {
     font-weight: inherit;
 }
 
-blockquote{
+figure,
+blockquote {
     margin: 0;
+}
+
+address {
+    font-style: normal;
 }
