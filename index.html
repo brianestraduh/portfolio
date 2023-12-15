@@ -72,8 +72,8 @@
       <div class="container">
           <h2 id="heading-aboutme" class="layout-section-title title--sm">About me</h2>
           <div class="layout-grid-half">
-          <p class="text--lg">Brian Estrada studied Mechanical Engineering at the University of California, Riverside. Years of experience working with software has given Brian a consumer perspective with an emphasis on quality.</p>
-          <p class="text--lg">Brian is constantly evolving his toolkit and growing as a Software Engineer, learning the <strong>best technologies</strong>, suitable for any project.</p>
+          <p class="text--lg">Brian Estrada studied Mechanical Engineering at the University of California, Riverside. Years of experience working with software have given Brian a true consumer perspective with an emphasis on quality.</p>
+          <p class="text--lg">Brian is constantly evolving his toolkit and growing as a Software Engineer, learning the <strong>best technologies</strong>, suitable for any project. Above all is a Problem Solver.</p>
           <p class="text--lg">
             Curious to know more? Check-out my <a href="#portfolio">portfolio</a> or <a href="#hire-me">hire me!</a>
           </p>
@@ -83,74 +83,34 @@
             <h2 id="heading-portfolio" class="title--sm layout-section-title">Portfolio</h2>
             <div class="portfolio">
                 <img
-                    src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-1.jpg"
+                    src="/assets/images/market.jpg"
                     width="300"
                     height="300"
                     alt="Stocks web app"
                     class="portfolio-screenshot"
                 />
                 <div>
-                    <h3 class="title">SuperM - Online Market App</h3>
-                    <p class="text">React with Redux for State Mgmt - Stripe Integration</p>
-                    <a href="https://example.com" class="btn btn--line" target="_blank">Visit Web App</a>
-                    <a href="https://example.com" class="btn btn--line" target="_blank">Visit Github Repo</a>
+                    <h3 class="title">SuperM - Online SuperMarket</h3>
+                    <p class="text">Online market place with Stripe Integration. Built with React/JS and a Firebase DB.</p>
+                    <a href="https://super-market-project.vercel.app/" class="btn btn--line" target="_blank">Visit Web App</a>
+                    <a href="https://github.com/brianestraduh/superMarket-project" class="btn btn--line" target="_blank">Visit Github Repo</a>
                 </div>
             </div>
             <div class="portfolio">
                 <img
-                    src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-2.jpg"
+                    src="/assets/images/currency.jpg"
                     width="300"
                     height="300"
                     alt="Todo app"
                     class="portfolio-screenshot"
                 />
                 <div>
-                    <h3 class="title">Todo app</h3>
+                    <h3 class="title">CurrentCurrency - Currency Converter</h3>
                     <p class="text">
-                        Having goals is a must in every day life.
-                        This is why I created this Todo app that I
-                        use every workday to plan my tasks ahead.
+                        Real-time conversion rates for multiple currencies with a user-friendly interface. Built with React/JS.
                     </p>
-                    <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                </div>
-            </div>
-            <div class="portfolio">
-                <img
-                    src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-3.jpg"
-                    width="300"
-                    height="300"
-                    alt="Travel planner"
-                    class="portfolio-screenshot"
-                />
-                <div>
-                    <h3 class="title">Travel planner</h3>
-                    <p class="text">
-                        Once a year, it's time to let the place you
-                        go home and go discover. With this Travel
-                        planner, you can easily plan your next trip.
-                        So, where will you go?
-                    </p>
-                    <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
-                </div>
-            </div>
-            <div class="portfolio">
-                <img
-                    src="https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478885/learnhtmlcss/portfolio/project-4.jpg"
-                    width="300"
-                    height="300"
-                    alt="Sports tracker"
-                    class="portfolio-screenshot"
-                />
-                <div>
-                    <h3 class="title">Sports tracker</h3>
-                    <p class="text">
-                        I love sports. I love to track my progress.
-                        With this sports tracker app, you can easily
-                        track your progress and unlock achievements.
-                        The unique gamification aspect makes you
-                        want to keep smashing your goals!
-                    </p>
-                    <a href="https://example.com" class="btn btn--line" target="_blank">Visit</a>
+                    <a href="https://currency-converter-brian-estradas-projects.vercel.app/" class="btn btn--line" target="_blank">Visit Web App</a>
+                    <a href="https://github.com/brianestraduh/currency-converter" class="btn btn--line" target="_blank">Visit Github Repo</a>
                 </div>
             </div>
         </div>
@@ -212,6 +172,8 @@
                         </p>
                     </div>
                 </div>
+            </address>
+            <address>
                 <div class="hire-line">
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M25 5H5C3.625 5 2.5125 6.125 2.5125 7.5L2.5 22.5C2.5 23.875 3.625 25 5 25H25C26.375 25 27.5 23.875 27.5 22.5V7.5C27.5 6.125 26.375 5 25 5ZM25 10L15 16.25L5 10V7.5L15 13.75L25 7.5V10Z" fill="var(--light-icon)" />
@@ -224,17 +186,6 @@
                     </div>
                 </div>
             </address>
-            <form>
-                <label for="hire-name" class="sr-only">Your name</label>
-                <input id="hire-name" type="text" autocomplete="name" class="input" placeholder="Your name" />
-                <label for="hire-email" class="sr-only">Your email</label>
-                <input id="hire-email" type="email" autocomplete="email" class="input" placeholder="Your email"/>
-                <label for="hire-message" class="sr-only">Your message</label>
-                <textarea id="hire-message" class="input" placeholder="Your message"></textarea>
-                <div class="hire-action">
-                    <input type="submit" class="btn btn--raised" value="Send" />
-                </div>
-            </form>
         </div>
     </div>
 </section>
@@ -251,18 +202,13 @@
                 </div>
             </div>
             <div class="side">
-                <p class="text--sm">@example on Social Media</p>
                 <ul class="footer-social">
                     <li>
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM15.5544 13.5582L15.5208 13.0046C15.4201 11.5697 16.3042 10.259 17.7032 9.75059C18.218 9.56981 19.0909 9.54721 19.6617 9.70539C19.8856 9.77318 20.3108 9.99916 20.613 10.2025L21.1614 10.5754L21.7658 10.3833C22.1015 10.2816 22.5492 10.1121 22.7506 9.99916C22.9409 9.89747 23.1088 9.84097 23.1088 9.87487C23.1088 10.0669 22.6947 10.7223 22.3477 11.0838C21.8777 11.5923 22.012 11.6375 22.9633 11.2985C23.534 11.1064 23.5452 11.1064 23.4333 11.3211C23.3662 11.4341 23.0192 11.8295 22.6499 12.1911C22.0232 12.8125 21.9896 12.8803 21.9896 13.4001C21.9896 14.2023 21.6091 15.8745 21.2286 16.7897C20.5235 18.5071 19.0126 20.281 17.5017 21.1736C15.3753 22.4277 12.5438 22.7441 10.16 22.0097C9.36538 21.7611 8 21.1284 8 21.0154C8 20.9815 8.41409 20.9363 8.91772 20.925C9.96973 20.9024 11.0218 20.6086 11.9171 20.0889L12.5214 19.7273L11.8276 19.4901C10.8427 19.1511 9.95854 18.3715 9.73471 17.6371C9.66756 17.3998 9.68994 17.3885 10.3167 17.3885L10.9658 17.3772L10.4174 17.1173C9.76828 16.7897 9.17513 16.236 8.88414 15.6711C8.6715 15.2643 8.4029 14.2362 8.48124 14.1571C8.50362 14.1232 8.73865 14.191 9.00725 14.2814C9.77948 14.5638 9.8802 14.496 9.43253 14.0215C8.59316 13.1628 8.33575 11.886 8.73865 10.6771L8.92891 10.1347L9.66756 10.8692C11.1784 12.3493 12.9579 13.2306 14.9948 13.4905L15.5544 13.5582Z"
-                            fill="var(--light-icon)" />
-                        </svg>
-                    </li>
-                    <li>
+                        <a href="https://www.linkedin.com/in/brian-estrada-5205a1136/">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM7.68101 13.252H11.307V24.1464H7.68101V13.252ZM11.5479 9.8818C11.5244 8.8136 10.7605 8 9.5201 8C8.27969 8 7.46875 8.8136 7.46875 9.8818C7.46875 10.9279 8.25572 11.7649 9.47304 11.7649H9.49621C10.7605 11.7649 11.5479 10.9279 11.5479 9.8818ZM20.2088 12.9961C22.5948 12.9961 24.3836 14.5535 24.3836 17.8998L24.3834 24.1464H20.7576V18.3178C20.7576 16.8538 20.2329 15.8548 18.9203 15.8548C17.9186 15.8548 17.3219 16.5283 17.0599 17.1788C16.964 17.4119 16.9404 17.7367 16.9404 18.0623V24.1467H13.3141C13.3141 24.1467 13.3619 14.2745 13.3141 13.2522H16.9404V14.7953C17.4217 14.0535 18.2836 12.9961 20.2088 12.9961Z" fill="var(--light-icon)" />
                         </svg>
+                    </a>
                     </li>
                 </ul>
             </div>
